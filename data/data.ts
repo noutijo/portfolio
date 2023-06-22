@@ -489,7 +489,7 @@ export const blogData: blogType[] = [
       },
       {
         type: "NOTE",
-        value: `const arr = ["token", "eyJfcmFpbHMiOnsibWVzc2FnZSI6IlcxczBPRG"]`,
+        value: `let arr = ["token", "eyJfcmFpbHMiOnsibWVzc2FnZSI6IlcxczBPRG"]`,
       },
       {
         type: "TEXT",
@@ -508,7 +508,7 @@ export const blogData: blogType[] = [
       {
         type: "CODE",
         value: `const obj = {}; 
-arr = ["token", "eyJfcmFpbHMiOnsibWVzc2FnZSI6IlcxczBPRG"];
+const arr = ["token", "eyJfcmFpbHMiOnsibWVzc2FnZSI6IlcxczBPRG"];
 obj[arr[0]] = arr[1];
 
 console.log(obj);
