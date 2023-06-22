@@ -507,7 +507,7 @@ export const blogData: blogType[] = [
       },
       {
         type: "CODE",
-        value: `const obj = {}; 
+        value: `let obj = {}; 
 const arr = ["token", "eyJfcmFpbHMiOnsibWVzc2FnZSI6IlcxczBPRG"];
 obj[arr[0]] = arr[1];
 
