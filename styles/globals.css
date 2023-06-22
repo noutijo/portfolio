@@ -91,52 +91,6 @@
         will-change: opacity;
     }
 
-    /* ---- loading borders ----*/
-    .loading-borderr {
-        position: relative;
-        overflow: hidden;
-        padding: calc(1px + 1px);
-        border-radius: 12px;
-        display: inline-block;
-        z-index: 0;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-        perspective: 1000;
-        transform: translateZ(0);
-        transfom: translateZ(0)
-    }
-
-    .loading-borderr [aria-hidden=false] {
-        content: "";
-        position: absolute;
-        top: 1px;
-        right: 1px;
-        bottom: 1px;
-        left: 1px;
-        padding: 1px;
-        -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-        mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-        -webkit-mask-composite: xor;
-        mask-composite: exclude;
-        z-index: -1;
-        border-radius: calc(12px + 1px);
-    }
-
-    .loading-borderr:hover > [aria-hidden=false]:before {
-        content: "";
-        background: conic-gradient(from 180deg at 50% 50%, #FF7782 0deg, #a853ba 112.5deg, #7380EC 228.75deg, rgba(42, 138, 246, 0) 360deg);
-        box-shadow: 0 0 40px 20px conic-gradient(from 180deg at 50% 50%, #FF7782 0deg, #a853ba 112.5deg, #7380EC 228.75deg, rgba(42, 138, 246, 0) 360deg);
-        width: calc(100% * 1.41421356237);
-        padding-bottom: calc(100% * 1.41421356237);
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        border-radius: 100%;
-        z-index: -2;
-        animation: loading_border_spin 5s linear infinite
-    }
-
     .loading-border-nav {
         position: relative;
         overflow: hidden;

@@ -19,8 +19,7 @@ export default function Testtimonial({
 
   return (
     <>
-      <div className="group hover:scale-[1.02] transition-all duration-300 ease-out ring-style first:mt-6 rounded-2xl p-4 bg-colorWhite dark:bg-colorWhite_DM  w-full loading-border">
-        <i aria-hidden="false"></i>
+      <div className="group hover:scale-[1.02] transition-all duration-300 ease-out ring-style first:mt-6 rounded-2xl p-4 bg-colorWhite dark:bg-colorWhite_DM  w-full">
         <div className="title flex items-center justify-between">
           <div className="Profile flex items-center gap-2">
             <div className="rounded-full w-[45px] h-[45px] flex items-center justify-center bg-gradient-to-r from-colorDanger/30 to-colorPrimary/30 overflow-hidden">
