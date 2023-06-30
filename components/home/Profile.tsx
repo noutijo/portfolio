@@ -104,7 +104,7 @@ export default function Profile() {
         <div className="border-t-[1px] border-dashed border-colorPrimary w-6"></div>
         <div className="icon w-[26px] h-[26px] rounded-full bg-colorBgLight ring-style flex items-center justify-center">
           <a
-            href="https://twitter.com/JuniorOreol"
+            href="https://twitter.com/oreolnoumodong"
             target="_blank"
             rel="noopener noreferrer"
           >
