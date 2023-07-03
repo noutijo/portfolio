@@ -1,6 +1,8 @@
 
 ## Getting Started
 
+After cloning the repo.
+
 1. Install dependencies
 
 ```bash
