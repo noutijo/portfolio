@@ -17,9 +17,9 @@ export default function Footer() {
               className="text-colorPrimary mx-1"
               rel="noopener noreferrer"
               target="_blank"
-              href="https://twitter.com/oreolnoumodong"
+              href="https://twitter.com/JuniorOreol"
             >
-              @oreolnoumodong
+              @JuniorOreol
             </a>
           </span>
           <a
