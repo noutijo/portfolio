@@ -269,7 +269,7 @@ export const webDeskData: webDeskType[] = [
     gitLink: "https://github.com/noutijo/responsive-crypto-dashboard-nextjs",
     viewLink: "https://responsive-crypto-dashboard-nextjs.vercel.app/",
     description:
-      "Custom crypto admin dasboard made with next.js and tailwindcss.",
+      "Custom crypto admin dashboard made with next.js and tailwindcss.",
   },
   {
     title: "Responsive Dashboard",

@@ -13,7 +13,7 @@ export default function Blog() {
           "Welcome to my blog where I share my knowledge about web application development and design."
         }
       />
-      <div className="mt-6 flex items-center gap-2">
+      <div className="mt-6 flex items-center gap-3">
         <p className="text-xl font-extrabold text-gradient">Blog</p>
         <div className="flex items-center">
           <i className="bi bi-chat-text-fill text-lg text-gradient flex items-center justify-center"></i>
